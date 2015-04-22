@@ -12,7 +12,7 @@ response = urllib2.urlopen(request)
 html = response.read()
 parser= BeautifulSoup(html)
 
-print type()
+print type(html)
 
 row1=0
 row2=0
